@@ -1,0 +1,91 @@
+.filme-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 30px;
+    background-color: #ab60f0;
+    border-radius: 5px;
+}
+
+.filme-info h1{
+    margin: 14px 0;
+    text-align: center;
+}
+
+.filme-info img{
+    border: 8px;
+    width: 800px;
+    max-width: 100%;
+    max-height: 340px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.filme-info h3{
+    margin-top: 14px;
+}
+
+.filme-info span{
+    margin: 8px 0;
+}
+
+
+.area-buttons button{
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px 85px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.area-buttons :nth-child(1):hover{
+    background-color: green;
+    color: #fff;
+}
+
+.area-buttons button:hover{
+    background-color: brown;
+    color: #fff;
+}
+
+.area-buttons a:hover{
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.area-buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+.area-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+.exit{
+    position: relative;
+    left: 99%;
+    top: -12px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid red;
+    line-height: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}

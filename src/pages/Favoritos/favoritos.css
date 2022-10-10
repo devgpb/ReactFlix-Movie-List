@@ -1,0 +1,63 @@
+.fav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fav h1{
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.fav ul{
+    margin-top: 25px;
+    min-width: 350px;
+    max-width: 680px;
+    list-style-type: none;
+    width: 60%;
+    border: 2px solid deepskyblue;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightsteelblue;
+    padding: 16px 0;
+}
+
+.fav ul li{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    width: 88%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details a{
+    margin-right: 18px;
+    color: #116feb;
+}
+
+.details button{
+    padding: 7px 11px;
+    border: none;
+    border-radius: 4px;
+    background-color: indianred;
+    color: white;
+    cursor: pointer;
+}
+
+.nofil{
+    color: #cb3232;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 12px 0;
+}
+
+/* .fav ul li *,.fav ul li div *{
+    margin-right: 30px;
+} */
