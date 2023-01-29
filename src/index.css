@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
+html{
+    --cor-principal: #060C0D;
+    --cor-sec-1: #2B4040;
+    --cor-sec-2: #798C83;
+    --cor-sec-3: #97A69B;
+    --font-principal: #97A69B;
+    --font-sec-1:#d8dbd8;
+}
+
 body{
     font-family: sans-serif;
-    background: #340b4b;
+    background: var(--cor-sec-1);
 }
 
 .app{
